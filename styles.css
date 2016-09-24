@@ -21,7 +21,7 @@ a{
     margin: 40px auto;
 }
 .english, .arabic {
-    max-height: 100px;
+    max-height: 100px; 
     height: 8vw;
     margin: auto;
     padding: 0;
