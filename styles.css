@@ -1,50 +1,65 @@
-body{
-    background-image: url("assets/background.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 16px;
-    font-family: sans-serif;
-}
-a{
-    text-decoration: none;
-    cursor: pointer;
-    color: inherit;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-.logo{
-    width: 200px;
-    margin: 40px auto;
-}
-.english, .arabic {
-    max-height: 100px;
-    height: 8vw;
-    margin: auto;
-    padding: 0;
-}
+body {
+  background-color: black;
+  background-image: url("assets/background.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  font-size: 16px; }
 
-.wrapper{
-    vertical-align: middle;
-    color: white;
-    height: 100vh;
-    font-size: 1.3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit; }
 
-}
+.logo {
+  width: 200px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0; }
+
+.wrapper {
+  box-sizing: border-box;
+  padding-top: 150px;
+  color: white;
+  font-size: 1.3rem;
+  height: 100%;
+  font-family: 'Poiret One', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.arabic {
+  font-family: 'Droid Arabic Kufi', serif; }
 
 .links {
-    flex: 2;
-    margin: 30px auto;
-    width: 60%;
-    min-width: 350px;
-    min-height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items:  flex-start;
-}
+  margin: 30px auto 0 auto;
+  width: 60%;
+  min-width: 350px;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.links img {
+  height: 50px; }
