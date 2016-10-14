@@ -2,13 +2,12 @@
   margin: 0;
   padding: 0; }
 
-body {
+html {
   background-color: black;
   background-image: url(assets/background.jpg);
+  background-repeat: no-repeat;
   background-position: center top;
-  background-repeat: repeat-x;
-  background-size: auto;
-  height: 100vh;
+  background-size: cover;
   text-align: center;
   font-size: 16px;
   color: white; }
@@ -23,10 +22,9 @@ a {
 
 .wrapper {
   font-family: 'Viga', sans-serif;
-  font-size: 1.2rem; }
-
-.box {
-  margin: 140px auto; }
+  font-size: 1.2rem;
+  margin: 140px auto;
+  margin-bottom: 0; }
 
 .text {
   margin: 40px 20px; }
@@ -42,4 +40,4 @@ a {
 
 @media (max-width: 500px) {
   .links img {
-    margin: 20px 10px; } }
+    margin: 20px 20px; } }
