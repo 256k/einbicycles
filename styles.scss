@@ -17,36 +17,74 @@ a{
     text-decoration: none;
     cursor: pointer;
     color: inherit;
+    font-weight: bold;
+}
+p {
+    margin: 20px 20px;
+    line-height: 1;
+    font-weight: 100;
 }
 .logo{
-    width: 200px;
+    width: 240px;
+    margin: 0 0 20px 0;
 }
 .wrapper{
     font-family: 'Changa', sans-serif;
-    font-size: 1.2rem;
-    margin: 140px auto;
+    font-size: 1.7rem;
+    margin: 10px auto;
     margin-bottom: 0;
     height: 100%;
     padding-bottom: 100px;
+    line-height: 1.2;
+
 
 }
 .text {
-    margin: 40px 20px;
+    margin: 10px 20px;
     font-weight: 100;
 }
 .arabic{
     font-family: 'Droid Arabic Kufi', serif;
+    margin-bottom: 50px;
 
+}
+.english {
+    margin-bottom: 40px;
 }
 .links img {
     height: 60px;
-    margin: 20px 40px;
+    margin: 40px 40px;
     margin-bottom: 0;
 }
 
 @media (max-width: 500px){
     .links img{
-        margin: 20px 20px;
+        margin: 40px 20px;
     }
-
+    .wrapper {
+        font-size: 0.7em;
+    }
+    p{
+        width: 70%;
+        margin: 20px auto;
+        font-size: 1.2em;
+    }
+    h1 {
+        line-height: 1;
+    }
+    .logo {
+        width: 150px;
+    }
+    .arabic {
+        margin-bottom: 20px;
+    }
+    .english {
+        margin-bottom: 20px;
+    }
+    .email {
+        font-size: 1.5em;
+    }
+    .english2 {
+        margin-bottom: 40px;
+    }
 }
